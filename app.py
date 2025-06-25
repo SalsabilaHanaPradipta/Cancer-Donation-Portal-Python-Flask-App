@@ -150,7 +150,7 @@ def donation():
             con.commit()
             
             # Greeting
-            msg = "Thank You for Donating"
+            msg = "Terimakasih telah melakukan donasi"
             for row in cur.execute("SELECT Amount FROM Donors WHERE Email=(?)",[(email)]):
                 Amount=row
          return render_template("greeting.html",msg = msg,nm=nm,Amount=Amount,today=today, email=email)
