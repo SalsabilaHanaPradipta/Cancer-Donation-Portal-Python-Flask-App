@@ -1,0 +1,47 @@
+{
+  "id": "bd10e78b-a7a8-4b69-8380-34170021de35",
+  "version": "2.0",
+  "name": "cancer donation",
+  "url": "https://legendary-system-4j975jvgqqp37p75-5000.app.github.dev",
+  "tests": [{
+    "id": "da2de718-bdc5-4408-b03b-725c40373f4c",
+    "name": "cancer donation",
+    "commands": [{
+      "id": "7d7f7f8c-787c-4222-ba72-bd3d0fcc211a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61bec7fd-8bce-4076-89c8-82b402650e7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f25d58b6-0992-4dd0-a043-c221cba4f1dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1aebeeb0-46e1-4091-9228-54408a2d78ab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["da2de718-bdc5-4408-b03b-725c40373f4c"]
+  }],
+  "urls": ["https://legendary-system-4j975jvgqqp37p75-5000.app.github.dev/"],
+  "plugins": []
+}
